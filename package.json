@@ -1,0 +1,41 @@
+{
+  "name": "ng-flask-restless-client",
+  "version": "0.1.0",
+  "description": "An angular client for Flask-Restless",
+  "main": "./dist/ng-flask-restless-client.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chfw/ng-flask-restless-client.git"
+  },
+  "keywords": [
+    "flask-restless",
+    "angular",
+    "restful"
+  ],
+  "author": "C.W.",
+  "email": "wangc_2011 (at) hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chfw/ng-flask-restless-client/issues"
+  },
+  "homepage": "https://github.com/chfw/ng-flask-restless-client#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-coffee": "0.0.6",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-karma": "^2.0.0",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "mocha": "^3.2.0"
+  }
+}

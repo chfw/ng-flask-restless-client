@@ -1,0 +1,30 @@
+{
+  "name": "ng-flask-restless-client",
+   "homepage": "https://github.com/chfw/ng-flask-restless-client",
+  "authors": [
+    "C.W <wangc_2011 (at) hotmail.com>"
+  ],
+  "description": "An angular client for Flask-Restless",
+  "main": "./dist/ng-flask-restless-client.js",
+  "keywords": [
+    "flask-restless",
+    "angular",
+    "restful"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test"
+  ],
+  "dependencies": {
+    "angular": "~1.5.10"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.5.10",
+    "restangular": "~1.5.2",
+    "lodash": "^4.17.4"
+  }
+}
