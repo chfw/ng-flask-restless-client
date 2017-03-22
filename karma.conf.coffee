@@ -28,3 +28,12 @@ module.exports = (config) ->
       'karma-coverage',
       'karma-phantomjs-launcher'
     ]
+    reporters: ['coverage']
+    preprocessors:
+      'dist/**/*.js': ['coverage']
+    coverageReporter:
+      reporters: [
+        {
+          type: 'lcov'
+        }
+      ]

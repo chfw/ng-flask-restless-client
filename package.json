@@ -4,7 +4,8 @@
   "description": "An angular client for Flask-Restless",
   "main": "./dist/ng-flask-restless-client.js",
   "scripts": {
-    "test": "make test"
+    "test": "karma start karma.conf.coffee",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/chfw/ng-flask-restless-client#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "codecov": "^2.1.0",
     "grunt": "^1.0.1",
     "grunt-coffee": "0.0.6",
     "grunt-coffeelint": "0.0.16",
