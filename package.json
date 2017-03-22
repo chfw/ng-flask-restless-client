@@ -4,7 +4,7 @@
   "description": "An angular client for Flask-Restless",
   "main": "./dist/ng-flask-restless-client.js",
   "scripts": {
-    "test": "karma start karma.conf.coffee",
+    "test": "karma start",
     "codecov": "codecov"
   },
   "repository": {
