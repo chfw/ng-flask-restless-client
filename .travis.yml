@@ -6,6 +6,5 @@ before_script:
   - npm install bower -g
   - grunt test
   - bower install
-test:
-  post:
-    - npm run codecov
+after_success:
+  npm run codecov
